@@ -1,0 +1,23 @@
+        body {
+            background-color: lightblue; /* Light blue background */
+            font-family: Arial, sans-serif; /* Font styling */
+            text-align: center; /* Center the content */
+            margin: 20px; /* Margin around the body */
+        }
+        input {
+            padding: 10px; /* Padding for input boxes */
+            margin: 10px; /* Margin for input boxes */
+            border-radius: 5px; /* Rounded corners for input boxes */
+            border: 1px solid #ccc; /* Light grey border */
+        }
+        button {
+            padding: 10px 20px; /* Padding for button */
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners for button */
+            cursor: pointer; /* Pointer cursor for button */
+        }
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }

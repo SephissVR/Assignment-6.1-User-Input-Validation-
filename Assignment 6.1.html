@@ -1,0 +1,33 @@
+<!--Anastasia Casagrande
+10/19/24
+CSC 102-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Validation</title>
+    <link rel="stylesheet" href="information.css">
+    <script src="information.JS"></script>
+    
+</head>
+<body>
+
+    <h1>Welcome! Please Enter Your Information</h1>
+    
+    <!-- Input for first name -->
+    <input type="text" id="firstName" placeholder="First Name" required>
+    
+    <!-- Input for last name -->
+    <input type="text" id="lastName" placeholder="Last Name" required>
+    
+    <!-- Input for zip code -->
+    <input type="text" id="zipCode" placeholder="Zip Code (5 digits)" required>
+    
+    <!-- Button to submit the form -->
+    <button onclick="validateInputs()">Submit</button>
+
+    <p id="message" style="color: red;"></p> <!-- Message display -->
+
+</body>
+</html>
